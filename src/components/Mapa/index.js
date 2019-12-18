@@ -1,8 +1,12 @@
 import React, { useEffect, useRef } from "react";
-import { Container } from "../Container";
+
 
 // import React from "react";
 import { Mapi } from "./styles";
+import { Boton } from "./styles";
+import { ContainerRight } from "../ContainerRight";
+import { Navbar } from "../Navbar";
+ 
 
 // export const Mapa = () => <Mapi></Mapi>;
 
@@ -38,7 +42,9 @@ export const Mapa = () => {
 
   // assign elementRef to the ref of our component
   return <div className="viewDiv" ref={elementRef}>
- </div>;
+    <ContainerRight/>
+    <Navbar/>
+     </div>;
 };
 
  

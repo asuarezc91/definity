@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const Consult = () => {
+export const ConsultPaths = () => {
   return (
     <div className="test">
       <div id="rectangle">

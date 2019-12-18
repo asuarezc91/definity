@@ -1,8 +1,10 @@
 import React, { useEffect, useRef } from "react";
+ 
 import { Header } from "./components/Header";
 import { Mapa } from "./components/Mapa";
-import { Home } from "./pages/Home";
+
  
+
 
 // export function App() {
 //   const elementRef = useRef();
@@ -22,11 +24,14 @@ import { Home } from "./pages/Home";
 //   <Header /> </div>;
 // }
 
+
 export const App = () => (
   <div className="grid" id="test">
+ 
     <Header />
-    <Mapa />
-    <Home />
+    <Mapa/> 
+  
+  
   </div>
 );
 
