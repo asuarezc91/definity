@@ -7,7 +7,7 @@ export const NavbarMenu = styled.div`
   right: 400px;
   width: 100px;
   height: calc(100% - 100px); 
-  background: grey;
+  background: #262626;
   display: flex;
   flex-direction: column;
 `;
@@ -30,7 +30,7 @@ export const NavbarMenu = styled.div`
  
 
 export const Link = styled(LinkRouter)`
-background-color: blue;
+background-color: #A3C9D9;
 border: none;
 color: white;
 padding: 15px 20px;

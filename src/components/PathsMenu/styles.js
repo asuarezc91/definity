@@ -26,7 +26,7 @@ export const Link = styled(LinkRouter)`
   width: 80px;
   height: 30px;
   right: 0px;
-  background: red;
+  background: #f2f0f0;
 `;
 
 // export const buttonito = styled(LinkRouter)`
@@ -45,7 +45,7 @@ export const TopMenu = styled.div`
   top: 0px;
   right: 0px;
   width: 400px;
-  background: green;
+  background: #404040;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,13 +55,13 @@ export const TopMenu = styled.div`
 export const SelectMenu = styled.select`
   width: 70px;
   height: 20px;
-  background: yellow;
+  background: #f2f0f0;
 `;
 
 export const ButtonConsult = styled.button`
   width: 70px;
   height: 20px;
-  background: yellow;
+  background: #f2f0f0;
 `;
 
 export const InputSearch = styled.input`
@@ -69,7 +69,7 @@ export const InputSearch = styled.input`
   height: 24px;
   top: 90px;
   width: 395px;
-  background: red;
+  background: #f2f0f0;
 `;
 
 export const Scroll = styled.div`
@@ -77,8 +77,22 @@ export const Scroll = styled.div`
   top: 120px;
   right: 0px;
   width: 400px;
-  background: white;
+  background: #262626;
   height: calc(100% - 120px);
+`;
+
+export const HeaderCard = styled.div`
+  right: 0px;
+  width: 400px;
+  background: #404040;
+`;
+
+export const BodyCard = styled.div`
+  top: 52px;
+  right: 0px;
+  width: 400px;
+  background: #a3c9d9;
+  height: 120px;
 `;
 
 // position: absolute;
